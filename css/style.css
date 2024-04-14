@@ -114,7 +114,7 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    /* transform: translateY(-100%); */
+    transform: translateY(-100%);
     transition: .5s;
     z-index: -1;
 }
