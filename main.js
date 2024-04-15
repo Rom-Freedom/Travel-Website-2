@@ -29,4 +29,39 @@ bookingType.addEventListener('click', (e) => {
 const swiper = new Swiper(".swiper", {
     slidesPerView: "auto",
     spaceBetween: 20,
+});
+
+
+const scrollRevealOption = {
+    distance: "50px",
+    origin: "bottom",
+    duration: 1000,
+};
+
+
+// header container
+ScrollReveal().reveal(".header__container h1", {
+    ...scrollRevealOption,
+  });
+  
+  ScrollReveal().reveal(".header__container p", {
+    ...scrollRevealOption,
+    delay: 500,
+  });
+  
+  ScrollReveal().reveal(".header__container .booking", {
+    ...scrollRevealOption,
+    delay: 1000,
+  });
+  
+  // service container
+  ScrollReveal().reveal(".service__card", {
+    duration: 1000,
+    interval: 500,
+  });
+  
+  // offer container
+  ScrollReveal().reveal(".offer__card", {
+    ...scrollRevealOption,
+    interval: 500,
   });
