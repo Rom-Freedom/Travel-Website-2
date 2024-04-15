@@ -25,3 +25,7 @@ bookingType.addEventListener('click', (e) => {
 });
 
 
+const swiper = new Swiper(".swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 20,
+  });
